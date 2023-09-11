@@ -229,6 +229,22 @@ section {
     gap: 15px;
 }
 
+.obj-left:link, .obj-center:link, .obj-right:link {
+    text-decoration: none;
+}
+  
+  .obj-left:link, .obj-center:link, .obj-right:link {
+    text-decoration: none;
+}
+  
+  .obj-left:link, .obj-center:link, .obj-right:link {
+    text-decoration: none;
+}
+  
+  .obj-left:link, .obj-center:link, .obj-right:link {
+    text-decoration: none;
+}
+  
 .obj-center {
     grid-row-start: 1;
     grid-column-start: 2;
