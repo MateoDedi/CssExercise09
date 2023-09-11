@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
 
 * {
     padding: 0;
@@ -6,3 +6,95 @@
     box-sizing: border-box;
 }
 
+.menu {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+}
+
+.logo {
+    width: 64px; 
+    height: 40px;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    float: right;
+    margin: 10px;
+}
+
+ul > li {
+    margin: 0 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    align-items: center;
+    font-family: "Inter";
+    height: 50%;
+    display: grid;
+}
+
+.content-left {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 2;
+
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 120px;
+}
+
+.top {
+    width: 100%;
+    height: 100%;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 3;
+}
+
+.top > img {
+    height: 100%;
+    width: 100%;
+}
+
+.bot-left {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 2;
+    width: 100%;
+    height: 100%;
+}
+
+.bot-right {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    grid-column-end: 3;
+    width: 100%;
+    height: 100%;
+}
+
+.content-right {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-column-end: 3;
+}
